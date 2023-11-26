@@ -1,0 +1,21 @@
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-card {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: blue;
+}
+
+@media (min-width: 768px) {
+  .user-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: blueviolet;
+  }
+}
